@@ -1,11 +1,11 @@
 import random
 from typing import List
 """
-Let's explore how both can be implemented in Python for a simple situation. 
-We will define an environment that will give the agent random rewards for a 
-limited number of steps, regardless of the agent's actions. This scenario is 
-not very useful, but it will allow us to focus on specific methods in both 
-the environment and agent classes. Let's start with the environment:
+Let's explore how both (agent and environment) can be implemented in Python 
+for a simple situation. We will define an environment that will give the agent 
+random rewards for a limited number of steps, regardless of the agent's actions. 
+This scenario is not very useful, but it will allow us to focus on specific 
+methods in both the environment and agent classes. Let's start with the environment:
 """
 
 class Environment:
